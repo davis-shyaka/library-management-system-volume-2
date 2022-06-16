@@ -20,7 +20,10 @@ background-attachment: fixed;
 
 .my-container{
     max-width: 600px;
-    margin-top: 5vh !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .btn{
@@ -62,4 +65,9 @@ background-attachment: fixed;
 
 .signup-warning{
     font-size: 11px;
+}
+
+.search-box{
+    height: 40px;
+    margin: auto;
 }
